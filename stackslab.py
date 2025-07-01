@@ -18,7 +18,7 @@ if stack:
 else:
     print(f" Stack is empty")
 
-print(f" Is stack empty? {len(stack) == 0}")  # This will now be False
+print(f" Is stack empty? {len(stack) == 0}")  
 
 print(f" Stack contents (top to bottom):")
 for item in reversed(stack):
